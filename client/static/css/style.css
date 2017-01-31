@@ -1,0 +1,117 @@
+*{
+  /*background-color: silver;*/
+}
+
+.nav p{
+  text-align: right;
+  margin: 15px;
+  margin-right: 145px;
+}
+
+.nav p:hover{
+  cursor: pointer;
+}
+
+.logout {
+  margin-left: 65%;
+}
+
+.logout p:hover {
+  cursor: pointer;
+}
+
+
+/*=================================================================
+============================ Home ============================
+=================================================================*/
+.loginMask{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8)
+}
+
+
+.logReg{
+  width: 500px;
+  height: 350px;
+  background: white;
+  position: absolute;
+  top: 100px;
+  left: calc(50% - 200px);
+}
+
+.loginPrompt, .regPrompt{
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+.loginPrompt, .regPrompt{
+  text-align: center;
+}
+
+.loginPrompt input, .regPrompt input{
+  margin: auto;
+}
+
+.loginPrompt label input, .regPrompt label input{
+  display: block;
+}
+
+
+
+
+.play{
+  outline: 1px solid blue;
+  width: 80%;
+  margin: auto;
+}
+  .play button{
+    margin-left: 40%;
+  }
+  .play button:hover{
+    cursor: pointer;
+  }
+
+
+.filterHome{
+  width: 90%;
+  margin-left: 72%;
+  margin-bottom: 15px;
+}
+
+.appoints{
+  outline: 1px solid black;
+  width: 70%;
+  margin: auto;
+  text-align: left;
+}
+  .appoints td{
+    border-top: 1px solid black;
+    text-align: left;
+  }
+  .appoints .q{
+    width: 150px;
+  }
+  .appoints .a{
+    width: 85px;
+    text-align: left;
+  }
+  .appoints .act{
+    width: 150px;
+    text-align: center;
+  }
+
+.newApt{
+  width: 70%;
+  text-align: right;
+  margin: auto;
+  margin-top: 15px;
+}
+  .newApt button{
+    background-color: blue;
+    color: white;
+    width: 175px;
+  }

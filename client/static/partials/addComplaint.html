@@ -1,0 +1,15 @@
+<h2>{{user.name}}</h2>
+<h2>{{error}}</h2>
+
+
+
+<h1>New Appointment</h1>
+
+<label>Date: </label>
+<input type="date" min="{{today}}" ng-model='newComplaint.theDate'>
+<label>Time: </label>
+<input type="time" min="08:00" max="17:00" step='1800' ng-model='newComplaint.time'>
+<label>Complaint: </label>
+<textarea ng-model='newComplaint.reason'></textarea>
+<button ng-click='backHome()'>Cancel</button>
+<button ng-click='addComplaint()'>Submit</button>
